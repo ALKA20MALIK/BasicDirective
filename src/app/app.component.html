@@ -1,0 +1,20 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <div>
+    <p appBasicHighlight class="">
+      Welcome to appBasicHighlight!
+    </p>
+    <p [appBetterHighlight]="'red'" [defaultColor]="'yellow'" >
+      Welcome to appBetterHighlight!
+    </p>
+    <div [ngSwitch]=Value>
+      <p *ngSwitchCase=5>value is 5</p>
+      <p *ngSwitchCase=10>value is 10</p>
+      <p *ngSwitchCase=15>value is 15</p>
+      <p *ngSwitchDefault>value is default</p>
+
+    </div>
+  </div>
+  
+</div>
+
